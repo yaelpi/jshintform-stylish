@@ -29,6 +29,7 @@ module.exports = {
 				'',
 				chalk.gray('line ' + err.line),
 				chalk.gray('col ' + err.character),
+				chalk.red('rule ' + err.code),
 				isError ? chalk.red(err.reason) : chalk.gray(err.reason)
 			];
 
