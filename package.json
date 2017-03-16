@@ -1,14 +1,13 @@
 {
-  "name": "jshint-stylish",
-  "version": "2.2.1",
-  "description": "Stylish reporter for JSHint",
+  "name": "jshintform-stylish",
+  "version": "1.0.0",
+  "description": "Stylish reporter for JSHintForm",
   "license": "MIT",
-  "repository": "sindresorhus/jshint-stylish",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaelpi/jshintform-stylish.git"
   },
+  "author": "Nechama k <nechamak1@gmail.com>",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -41,5 +40,10 @@
     "mocha": "*",
     "jshint": "^2",
     "xo": "*"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/yaelpi/jshintform-stylish/issues"
+  },
+  "homepage": "https://github.com/yaelpi/jshintform-stylish#readme",
+  "main": "index.js"
 }
